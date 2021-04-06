@@ -4,6 +4,26 @@ const app = getApp()
 
 Page({
   data: {
+    test:{
+      list:[
+        {
+         color:"background-color:#996666",
+         name:1,
+         month:'Nov',
+         day:20,
+         nei:2222213442211333,
+         juti:"Nov 20 6:30-10:00PM"   
+        },
+        {
+          color:"background-color:#996345",
+         name:2,
+         month:'Dec',
+         day:21,
+         nei:910293171730713,
+         juti:"Dec 20 6:30-10:00PM"
+        }
+      ],
+    },
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
