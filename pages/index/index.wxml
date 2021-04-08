@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <text class="material-icons">grade</text>
-<text>aaaaaaaaaaaaaaa</text><view wx:if="1">   <!--这里准备平板模式 -->
+<view wx:if="1">   <!--这里准备平板模式 -->
   <view wx:if="1">    <!--这里是夜间模式准备 -->
     <view class="frist_big">待办</view>
     <view class="frist_small">{{test.list.length}}个待办</view>
